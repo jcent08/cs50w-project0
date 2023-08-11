@@ -28,6 +28,7 @@ section img {
 }
 
 ol {
+  width: 30%;
   margin-left: 5%;
 }
 ol li {
@@ -45,12 +46,13 @@ ol li {
 }
 
 .mosaic2 {
+  width: 60%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
 }
 .mosaic2 img {
-  width: 250px;
+  width: 100%;
 }
 
 .contenedor {
@@ -73,10 +75,14 @@ ol li {
     flex-direction: column;
   }
   ol {
-    margin-left: 1%;
+    width: 100%;
+    margin-left: 2%;
   }
   ol li {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .mosaic2 {
+    width: 100%;
   }
   .mosaic2 img {
     width: 100%;
