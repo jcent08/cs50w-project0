@@ -6,6 +6,9 @@ header{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+footer{
+    background-color: #f1f1f1;
+}
 @media screen and (max-width:640px){
     .navbar-toggler:active{
         background-color:rgb(64, 139, 139);
