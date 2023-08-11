@@ -1,0 +1,42 @@
+.Centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagentarjeta {
+  width: 286px;
+  height: 210px;
+}
+
+.card {
+  width: 18rem;
+  margin-bottom: 20%;
+}
+
+h6, h2 {
+  color: dimgray;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#margen {
+  margin: 5%;
+}
+
+.card:hover {
+  color: gray;
+  box-shadow: 0 30px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 640px) {
+  #margentabla {
+    margin: 0.7%;
+  }
+  #margentabla h2 {
+    font-size: 1.2rem;
+  }
+  #margentabla h6 {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=actividades.css.map */
